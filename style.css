@@ -1,0 +1,53 @@
+*{
+	font-family: gemeli-mono, serif;
+	font-weight: 400;
+	font-style: normal;
+	margin: 1vw;
+}
+
+h1{
+	font-family: mono45-headline, monospace;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 7.5em;
+}
+
+a{
+	font-family: mono45-headline, monospace;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 2em;
+	text-decoration: none;
+	color: pink;
+}
+
+.click, .video, .move{
+	font-family: mono45-headline, monospace;
+	font-weight: 700;
+	font-style: normal;
+	cursor: pointer;
+}
+
+.click{
+	color: red;
+}
+
+.video{
+	color: blue;
+}
+
+.move{
+	color: #ffee00;
+}
+
+.horses{
+	position: fixed;
+	bottom: 5vh;
+	right: 5vw;
+	display: none;
+}
+
+p{
+	font-size: 4em;
+	margin-right: 30vw;
+}
