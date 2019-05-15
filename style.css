@@ -2,14 +2,14 @@
 	font-family: gemeli-mono, serif;
 	font-weight: 400;
 	font-style: normal;
-	margin: 1vw;
+	margin: .75vw;
 }
 
 h1{
 	font-family: mono45-headline, monospace;
 	font-weight: 700;
 	font-style: normal;
-	font-size: 7.5em;
+	font-size: 7em;
 }
 
 a{
@@ -25,7 +25,6 @@ a{
 	font-family: mono45-headline, monospace;
 	font-weight: 700;
 	font-style: normal;
-	cursor: pointer;
 }
 
 .click{
@@ -40,14 +39,97 @@ a{
 	color: #ffee00;
 }
 
-.horses{
+.moo{
 	position: fixed;
 	bottom: 5vh;
 	right: 5vw;
-	display: none;
+}
+
+.drag, .click, .video, .move, .rob, .circus, .object, .ryan, .deirdre, .amy{
+	cursor: pointer;
+}
+
+.circus, .object, .ryan, .deirdre{
+	color: red;
+	font-weight: bold;
+}
+
+.rob, .object, .amy{
+	color: orange;
+	font-weight: bold;
 }
 
 p{
 	font-size: 4em;
-	margin-right: 30vw;
+}
+
+.text{
+	width: 65vw;
+	display: inline-block;
+}
+
+.pics{
+	display: inline-block;
+	width: 25vw;
+	background-image: none;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.moo, .u1-1, .u1-2, iframe, .ryan-1{
+	display: none;
+}
+
+.u1-1, .u1-2{
+	display: none;
+	position: fixed;
+	width: 20vw;
+}
+
+.u1-1{
+	bottom: 5vh;
+	right: 5vw;
+}
+
+.u1-2{
+	bottom: 50vh;
+	right: 10vw;
+}
+
+.ryan-1 img{
+	width: 640px;
+}
+
+.cheetos img{
+	width: 20vw;
+	position: absolute;
+	top: 20vh;
+	right: 5vw;
+}
+
+.cheetos p{
+	font-size: 1em;
+	position: absolute;
+	top: 67vh;
+	right: 6vw;
+}
+
+.container{
+	height: 85vh;
+	width: 380vw;
+/*	overflow-x: scroll;
+  	overflow-y: hidden;*/
+/*  	white-space: nowrap;*/
+}
+
+.horiz{
+	width: 90vw;
+	display: inline-block;
+	margin: 0;
+}
+
+.container img{
+	height: 100%;
+	width: auto;
+
 }
